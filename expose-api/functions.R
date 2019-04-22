@@ -5,6 +5,8 @@
 #* @serializer unboxedJSON
 createDataModel <- function() {
   
-  list('response' = c("1","2"))
+  #list("1","2") # ["1","2"]
+  
+  list('response' = c("1","2")) # {"response":["1","2"]}
 
 }
